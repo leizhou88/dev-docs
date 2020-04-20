@@ -25,3 +25,7 @@
 (remove system dependencies that were installed with nodejs)
 # sudo apt autoremove
 ```
+
+# Using NVM to Manage and Switch node.js Versions
+
+See [manage node.js using nvm](manage%20node.js%20using%20nvm.mdm.md).

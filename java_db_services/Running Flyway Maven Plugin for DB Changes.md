@@ -19,6 +19,6 @@ In our maven java project, add the following plugin setting under <build><plugin
 
 ## Run the maven plugin on command line
 
-	mvn flyway:migrate
+`mvn flyway:migrate`
 
 
