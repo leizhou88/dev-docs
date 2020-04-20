@@ -7,13 +7,15 @@
 
 # Verify installation
 
-	sudo -u postgres psql -c "SELECT version();"
+	`sudo -u postgres psql -c "SELECT version();"`
 
-	We should see below output:   
- 
-	version                                              ----------------------------------------------------------------------------------------------------------------------------------------
+We should see below output:   
+	
+ ```
+	version   ----------------------------------------------------------------------------------------------------------------------------------------
 	 PostgreSQL 10.10 (Ubuntu 10.10-0ubuntu0.18.04.1) on x86_64-pc-linux-gnu, compiled by gcc 	   (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit
 	 (1 row)
+```
 
 ## The postgres user is created automatically when you install PostgreSQL. 
    This user is the superuser for the PostgreSQL instance and it is equivalent to 
